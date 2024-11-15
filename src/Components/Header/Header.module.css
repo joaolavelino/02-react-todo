@@ -1,0 +1,26 @@
+.header {
+  width: 100vw;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--gray-700);
+}
+.header h1 {
+  display: flex;
+  font-size: 2.25rem;
+}
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+}
+
+.titleBlue {
+  font-weight: 900;
+  color: var(--blue-500);
+}
+.titlePurple {
+  font-weight: 900;
+  color: var(--purple-500);
+}

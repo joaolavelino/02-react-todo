@@ -1,11 +1,13 @@
-import { PlusCircle, Trash } from "phosphor-react";
-import "./App.css";
-import { Button } from "./Components/Button/Button";
+import { Header } from "./Components/Header/Header";
 
 function App() {
   return (
     <>
-      <h1>hello</h1>
+      <Header />
+      <main>
+        <h2>Create Form</h2>
+        <h2>list</h2>
+      </main>
     </>
   );
 }

@@ -1,4 +1,8 @@
-# React + TypeScript + Vite
+# React To Do List
+Project created during Rocketseat's React Formation
+
+## About the Vite template
+### React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

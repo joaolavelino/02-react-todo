@@ -15,26 +15,6 @@ export const Button = ({
 }: ButtonProps) => {
   const buttonStyle = variant === "create" ? styles.create : styles.delete;
 
-  const buttonContent = () => {
-    switch (variant) {
-      case "create":
-        return <>{children}</>;
-        break;
-
-      case "delete":
-        return <Trash weight="bold" size={20} />;
-        break;
-
-      case "primary":
-        return <>{children}</>;
-        break;
-
-      default:
-        return <>{children}</>;
-        break;
-    }
-  };
-
   return (
     <button className={buttonStyle} {...props}>
       {variant != "delete" ? children : <></>}

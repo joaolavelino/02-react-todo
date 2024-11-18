@@ -1,13 +1,11 @@
 import { Header } from "./Components/Header/Header";
+import { Main } from "./Components/Main/Main";
 
 function App() {
   return (
     <>
       <Header />
-      <main>
-        <h2>Create Form</h2>
-        <h2>list</h2>
-      </main>
+      <Main />
     </>
   );
 }

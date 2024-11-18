@@ -1,0 +1,21 @@
+.wrapper {
+  width: 46rem;
+  margin-inline: auto;
+  margin-top: -2rem;
+}
+
+.createForm {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.createForm input {
+  flex: 1;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  color: var(--gray-100);
+  background-color: var(--gray-500);
+  font-size: 1rem;
+}

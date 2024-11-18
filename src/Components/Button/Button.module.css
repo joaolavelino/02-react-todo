@@ -14,7 +14,7 @@ button {
   display: flex;
   gap: 0.5rem;
 }
-.create:hover {
+.create:enabled:hover {
   background-color: var(--blue-300);
 }
 .delete {
@@ -23,7 +23,7 @@ button {
   border-radius: 8px;
   padding: 0.25rem;
 }
-.delete:hover {
+.delete:enabled:hover {
   color: var(--danger);
   background-color: var(--gray-400);
 }

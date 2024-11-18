@@ -1,0 +1,31 @@
+.card {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+
+  font-size: 0.875rem;
+}
+
+.checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  color: transparent;
+  border: 2px solid var(--blue-500);
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+
+.content {
+}
+
+.contentComplete {
+  text-decoration: line-through;
+  opacity: 0.3;
+}

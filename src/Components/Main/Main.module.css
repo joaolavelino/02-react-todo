@@ -19,3 +19,44 @@
   background-color: var(--gray-500);
   font-size: 1rem;
 }
+
+.cardList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.taskList > header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bolder;
+  margin: 3rem 0 1rem;
+}
+
+.listData {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.875rem;
+}
+
+.titleText {
+  color: var(--blue-500);
+}
+
+.listData > span {
+  background-color: var(--gray-400);
+  display: flex;
+  place-items: center;
+  height: 1.5rem;
+  padding-inline: 0.75rem;
+  border-radius: 0.75rem;
+  font-size: 0.75rem;
+}
+
+.successText {
+  color: var(--success);
+}
+
+.completedText {
+  color: var(--purple-500);
+}
